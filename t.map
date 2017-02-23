@@ -2,8 +2,8 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "235.517 421.5 -27.7032"
-"editor_drLastCameraAngle" "27.3 226.966 0"
+"editor_drLastCameraPos" "156.024 324.307 85.505"
+"editor_drLastCameraAngle" "27.9 273.766 0"
 // primitive 0
 {
 brushDef3
@@ -20,12 +20,12 @@ brushDef3
 {
 brushDef3
 {
-( 0 1 0 -376 ) ( ( 0.03125 0 4.3125 ) ( 0 0.03125 8 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
-( 1 0 0 -354 ) ( ( 0.03125 0 54.3125 ) ( 0 0.03125 8 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
-( 0 0 -1 192 ) ( ( 0.03125 0 53.8125 ) ( 0 0.03125 59.6875 ) ) "textures/darkmod/wood/boards/roof_framework_boards_large_old_darkbrown" 0 0 0
-( 0 -1 0 68 ) ( ( 0.03125 0 60.28125 ) ( 0 0.03125 71.9375 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
-( -1 0 0 98 ) ( ( 0.03125 0 5.625 ) ( 0 0.03125 71.9375 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
-( 0 0 1 -193 ) ( ( 0.03125 0 53.8125 ) ( 0 0.03125 4.3125 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
+( 0 1 0 -376 ) ( ( 0.02916659414768219 0.01121928077191114 5.725335597991943 ) ( -0.01121928077191114 0.02916659414768219 3.562416791915894 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
+( 0.9333310279318694 0 0.3590169802824374 -399.2107451932309 ) ( ( 0.03125 0 54.3125 ) ( 0 0.03125 3.562416791915894 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
+( 0.3590169802824374 0 -0.9333310279318694 49.99734316986659 ) ( ( 0.03125 0 53.8125 ) ( 0 0.03125 61.10033798217773 ) ) "textures/darkmod/plaster/tan_cracked" 0 0 0
+( 0 -1 0 68 ) ( ( 0.02916659414768219 -0.01121928077191114 58.86841201782227 ) ( 0.01121928077191114 0.02916659414768219 67.49990844726563 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
+( -0.9333310279318694 0 -0.3590169802824374 126.123346862222 ) ( ( 0.03125 0 5.625 ) ( 0 0.03125 67.50441741943359 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
+( -0.3590169802824374 0 0.9333310279318694 -50.99734316969805 ) ( ( -0.03125 0 53.8125 ) ( 0 -0.03125 2.899664163589478 ) ) "textures/darkmod/wood/boards/old_worn_with_nails" 0 0 0
 }
 }
 // primitive 2
@@ -1082,50 +1082,50 @@ brushDef3
 {
 "classname" "atdm:target_addobjectives"
 "name" "atdm_target_addobjectives_1"
-"origin" "593.216 404.217 22.5593"
-"obj1_desc" "Get 100 loot"
-"obj1_ongoing" "0"
-"obj1_visible" "1"
-"obj1_mandatory" "1"
-"obj1_irreversible" "0"
-"obj1_state" "0"
-"obj1_1_state" "0"
-"obj1_1_not" "0"
+"obj1_1_args" "550"
 "obj1_1_irreversible" "0"
+"obj1_1_not" "0"
 "obj1_1_player_responsible" "0"
-"obj1_1_type" "item"
 "obj1_1_spec1" "overall"
-"obj1_1_args" "100"
-"obj2_desc" "Find the Holy Cross"
-"obj2_ongoing" "0"
-"obj2_visible" "1"
-"obj2_mandatory" "1"
-"obj2_irreversible" "0"
-"obj2_state" "0"
-"obj2_1_state" "0"
-"obj2_1_not" "0"
+"obj1_1_state" "0"
+"obj1_1_type" "item"
+"obj1_desc" "Get 550 loot"
+"obj1_irreversible" "0"
+"obj1_mandatory" "1"
+"obj1_ongoing" "0"
+"obj1_state" "0"
+"obj1_visible" "1"
+"obj2_1_args" "0"
 "obj2_1_irreversible" "0"
+"obj2_1_not" "0"
 "obj2_1_player_responsible" "0"
-"obj2_1_type" "item"
 "obj2_1_spec1" "name"
 "obj2_1_spec_val1" "holy_cross"
-"obj2_1_args" "0"
-"obj3_desc" "exit by the patio"
-"obj3_ongoing" "0"
-"obj3_visible" "1"
-"obj3_mandatory" "1"
-"obj3_irreversible" "0"
-"obj3_state" "0"
-"obj3_enabling_objs" "1 AND 2"
-"obj3_1_state" "0"
-"obj3_1_not" "0"
+"obj2_1_state" "0"
+"obj2_1_type" "item"
+"obj2_desc" "Find the Holy Cross"
+"obj2_irreversible" "0"
+"obj2_mandatory" "1"
+"obj2_ongoing" "0"
+"obj2_state" "0"
+"obj2_visible" "1"
 "obj3_1_irreversible" "0"
+"obj3_1_not" "0"
 "obj3_1_player_responsible" "0"
-"obj3_1_type" "location"
 "obj3_1_spec1" "spawnclass"
-"obj3_1_spec_val1" "idPlayer"
 "obj3_1_spec2" "name"
+"obj3_1_spec_val1" "idPlayer"
 "obj3_1_spec_val2" "player_exit"
+"obj3_1_state" "0"
+"obj3_1_type" "location"
+"obj3_desc" "exit by the patio"
+"obj3_enabling_objs" "1 AND 2"
+"obj3_irreversible" "0"
+"obj3_mandatory" "1"
+"obj3_ongoing" "0"
+"obj3_state" "0"
+"obj3_visible" "1"
+"origin" "593.216 404.217 22.5593"
 }
 // entity 35
 {
@@ -1158,7 +1158,7 @@ brushDef3
 {
 "classname" "atdm:loot_painting_small"
 "name" "atdm_loot_painting_small_1"
-"origin" "99 263 8"
+"origin" "101 263 8"
 "rotation" "0 1 0 -1 0 0 0 0 1"
 "skin" "portrait_nobleman"
 }
@@ -1271,30 +1271,30 @@ brushDef3
 {
 "classname" "func_static"
 "name" "func_static_10"
+"model" "models/darkmod/architecture/ladders/ladder_8steps.ase"
 "origin" "351.894 88.0859 -64"
 "rotation" "0 -1 0 1 0 0 0 0 1"
-"model" "models/darkmod/architecture/ladders/ladder_8steps.ase"
 }
 // entity 53
 {
 "classname" "func_static"
 "name" "func_static_11"
-"origin" "133.486 329.486 66"
-"rotation" "0 -1 0 1 0 0 0 0 1"
 "model" "models/darkmod/furniture/beds/mattress_straw.lwo"
+"origin" "151.563 317.182 66"
+"rotation" "-0.19595 -0.980614 0 0.980614 -0.19595 0 0 0 1"
 }
 // entity 54
 {
 "classname" "atdm:moveable_holder_small_plus_candle"
 "name" "atdm_moveable_holder_small_plus_candle_2"
-"origin" "162 362 65"
+"origin" "193 361 65"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
 // entity 55
 {
 "classname" "light"
 "name" "ambient_world1"
-"_color" "0.416 0.416 0.416"
+"_color" "0.039 0.039 0.039"
 "light_center" "0 0 0"
 "light_radius" "156 186 90"
 "nodiffuse" "0"
@@ -1413,17 +1413,17 @@ patchDef2
 {
 "classname" "func_static"
 "name" "func_static_8"
+"model" "models/darkmod/furniture/shelves/bookshelf_wide01.lwo"
 "origin" "344.519 297.321 -64"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
-"model" "models/darkmod/furniture/shelves/bookshelf_wide01.lwo"
 }
 // entity 62
 {
 "classname" "atdm:moveable_loot_religious_symbol"
 "name" "holy_cross"
-"origin" "134.032 332.216 72.8159"
-"rotation" "0 0 -1 -1 0 0 0 1 0"
 "inv_category" "Special"
 "inv_loot_type" "0"
 "inv_name" "Holy Cross"
+"origin" "153.032 327.216 72.8159"
+"rotation" "0 0 -1 -1 0 0 0 1 0"
 }
