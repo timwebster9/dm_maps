@@ -2,8 +2,6 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "291.63 201.359 122.032"
-"editor_drLastCameraAngle" "-27 123.466 0"
 // primitive 0
 {
 brushDef3
@@ -1426,11 +1424,4 @@ patchDef2
 "inv_name" "Holy Cross"
 "origin" "153.032 327.216 72.8159"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
-}
-// entity 63
-{
-"classname" "atdm:moveable_food_carrot"
-"name" "atdm_moveable_food_carrot_1"
-"origin" "190 340 65"
-"rotation" "1 0 0 0 1 0 0 0 1"
 }
